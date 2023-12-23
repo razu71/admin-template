@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    table thead th{
+        @apply p-4 whitespace-nowrap;
+    }
+    table tbody td{
+        @apply p-3 whitespace-nowrap;
+    }
+    table tbody tr{
+        @apply border-b
+    }
+}
